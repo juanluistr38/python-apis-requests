@@ -9,7 +9,7 @@ class DadosRepositorios:
         # nome do dono da conta do github
         self.owner = owner        
         self.api_base_url = 'https://api.github.com'
-        self.access_token='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'
+        self.access_token='tokenGeradoGitHub'
         # cabeçalho com as informações completas para requisição
         self.headers = {'Authorization': 'Bearer ' + self.access_token,
                     'X-GitHub-Api-Version': '2022-11-28'}
